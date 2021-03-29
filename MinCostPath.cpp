@@ -27,10 +27,10 @@ int minCost(int grid[][100], int r, int c)
 int main()
 {
     int grid[100][100] = {
-        {1, 2, 3},
-        {4, 8, 2},
-        {1, 5, 3},
-    };
+                            {1, 2, 3},
+                            {4, 8, 2},
+                            {1, 5, 3},
+                         };
     
     cout<<"Minimum cost path is "<<minCost(grid, 3, 3);
     
